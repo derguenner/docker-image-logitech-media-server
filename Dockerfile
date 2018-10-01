@@ -23,6 +23,7 @@ RUN buildDeps='build-essential libssl-dev libffi-dev python-pip python-dev' && \
 	cpan App::cpanminus && \
 	cpanm --notest Inline && \
 	cpanm --notest Inline::Python && \
+	cpanm --notest IO::Socket::SSL && \
 	apt-get purge -y --auto-remove $buildDeps && \
 	apt-get clean && \
         rm -rf /var/lib/apt/lists/* && \
