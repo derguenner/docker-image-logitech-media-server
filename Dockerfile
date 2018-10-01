@@ -19,7 +19,7 @@ RUN buildDeps='build-essential libssl-dev libffi-dev python-pip python-dev' && \
 	rm -f /tmp/logitechmediaserver.deb && \
 	pip install --upgrade pip && \
         hash -r pip && \
-	pip install gmusicapi==10.1.2 && \
+	pip install git+https://github.com/simon-weber/Unofficial-Google-Music-API.git@develop && \
 	cpan App::cpanminus && \
 	cpanm --notest Inline && \
 	cpanm --notest Inline::Python && \
