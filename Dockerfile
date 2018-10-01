@@ -19,7 +19,7 @@ RUN buildDeps='build-essential libssl-dev libffi-dev python-pip python-dev' && \
 	rm -f /tmp/logitechmediaserver.deb && \
 	pip install --upgrade pip && \
         hash -r pip && \
-	pip install gmusicapi==10.1.2 && \
+	pip install gmusicapi==11.0.2 && \
 	cpan App::cpanminus && \
 	cpanm --notest Inline && \
 	cpanm --notest Inline::Python && \
