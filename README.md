@@ -21,9 +21,7 @@ docker run -d \
 ```
 To enable Google Music plugin follow directions here:
 
-https://squeezebox-googlemusic.github.io/squeezebox-googlemusic/
-
-You can skip straight to step 6 of the installation instructions then read the section on usage.
+To install the plugin, add the repository URL http://squeezebox-googlemusic.github.io/squeezebox-googlemusic/repository/repo.xml to your squeezebox plugin settings page.
 
 ## Note:
 
